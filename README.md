@@ -1,1 +1,1 @@
-# fulljs52.github.io
+# fulljs52.com

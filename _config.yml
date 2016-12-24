@@ -1,0 +1,42 @@
+encoding:         utf-8
+
+# setup
+title:            "FullJS52"
+tagline:          '52 JavaScript projects in 52 weeks'
+description:      '52 JavaScript projects in 52 weeks'
+url:              http://fulljs52.com
+baseurl:          "/"
+
+author:
+  name:           'Lukasz Gasior'
+  url:            https://twitter.com/lukaszgasior
+  gravatar_hash:  "1ab7c839883d913672f7b5e079d9f15e"
+
+githubrepo:       "https://github.com/FullJS52"
+
+paginate:           10
+paginate_path:      "/page:num/"
+
+permalink:          /:title/
+
+markdown:           kramdown
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
