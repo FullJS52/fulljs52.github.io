@@ -40,3 +40,4 @@ defaults:
 
 gems:
   - jekyll-paginate
+  - jekyll-seo-tag
