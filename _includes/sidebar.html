@@ -12,6 +12,9 @@
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
+      <a class="sidebar-nav-item" href="http://gasior.net.pl" target="_blank">Author</a>
+      <a class="sidebar-nav-item" href="/welcome-to-fulljs52-challenge/">About FullJS52</a>
+
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
