@@ -55,5 +55,5 @@ That's all for today!<br/>
 For me it is a time to start working on my first project.<br/>
 I'll publish it on Sunday, 8th of January.
 
-For you ... maybe you will start your own challenge and implement your 52 projects? :) 
+What about you? ... maybe you will start your own challenge and implement your 52 projects? :) 
 Please let me know if you will join FullJS52!
